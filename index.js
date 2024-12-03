@@ -64,7 +64,7 @@ function ourCard(cards){
   cards.forEach(function(cardd){
 
     const myCard = document.createElement('div');
-    console.log(myCard);
+    console.log(myCard);    
     
     myCard.classList.add('col');
     myCard.innerHTML = `
